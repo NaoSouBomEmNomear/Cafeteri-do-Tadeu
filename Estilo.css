@@ -1,0 +1,122 @@
+@font-face{
+    font-family: Pacifico;
+    src: url(materialize/style/fonts/DancingScript-Regular.ttf);
+}
+.cursivo{
+    font-family: Pacifico, cursive;
+    font-size: 75px;
+}
+body{
+    background-color:#ad5a1b;
+}
+P{
+    color:#00ff00;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 30px;
+}
+.letraGrande {
+    font-size: 30px;
+}
+.toddy{
+    background-color: aquamarine;
+    border: 3px solid #00ff15;
+    font-size: 20px;
+}
+.burguesia2{
+    background-color: slateblue;
+    border: 3px solid #ff0033;
+    font-size: 20px;
+}
+.dinossaurosAleatorios{
+    background-color: #a500ff;
+    border: 3px solid #7fff00;
+    font-size: 20px;
+}
+.JOJO{
+    background-color: #000000;
+    border: 3px solid #ffff00;
+    font-size: 20px;
+    color:#9d00ff;
+}
+.button{
+  background-color: #000000; 
+    border: 2px solid #f6ff00;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button2{
+    background-color: white;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.vertical {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background: #ddd;
+}
+.vertical li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.vertical li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+.horizontal li {
+    float: left;
+}
+.horizontal li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.horizontal li a:hover {
+    background-color: #111; 
+}
+.submenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #eee;
+    display: none;
+}
+.submenu li{
+    float: left;
+    width: 200px;
+    position: relative;
+}
+.submenu li{
+    display: block;
+    color: #000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.horizontal li:hover > ul:submenu {
+    display:block;
+}
